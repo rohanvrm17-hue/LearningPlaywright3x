@@ -1,0 +1,24 @@
+var a =10;
+console.log(a);
+
+var $ = 10;
+console.log($); 
+
+var _a = 10;
+console.log(_a);    
+
+var abc123 =19;
+console.log(abc123);
+
+var ab123 = 23;
+// var 45 = 34;
+var _ = 10;
+
+var Name = "pramod";
+var name = "Amit";
+
+var rohan_verma = "hello";
+var rohan$verma = "hello";
+var rohanv1232 = "hello";
+
+// var pramod dutta = "hello";

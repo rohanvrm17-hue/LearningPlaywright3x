@@ -1,0 +1,23 @@
+let browsers = ["Chrome", "Firefox", "Edge", "Safari", "Opera"];
+console.log(browsers.length) ; // 5
+console.log(browsers);
+
+browsers.pop(); // removes the Opera
+console.log(browsers);
+
+
+let remove = browsers.shift();
+console.log(remove); // Chrome
+console.log(browsers); // ["Firefox", "Edge", "Safari"]
+
+for (let i = 0; i < browsers.length; i++) {
+
+    console.log(browsers[i]);
+
+    if (browsers[i] === "Chrome") {
+
+        console.log("Chrome is removed from the selenium!");
+
+    }
+
+}

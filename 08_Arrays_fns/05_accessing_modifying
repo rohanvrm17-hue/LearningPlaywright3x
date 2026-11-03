@@ -1,0 +1,21 @@
+//Read items by index, and use .at() to count from the end with negative numbers.
+
+let cars = ["BMW", "Volvo", "Saab", "Ford"];
+console.log(cars[0]); // BMW
+
+//At: to print the last item, we can use .at(-1);
+console.log(cars.at(-1)); // Ford
+console.log(cars.at(-2)); // Saab
+console.log(cars.at(-3)); // Volvo
+console.log(cars.at(-4)); // BMW
+console.log(cars.at(-5)); // undefined, index out of range
+
+//Modify items by index
+cars[1]= "Mercedes";
+console.log(cars); // ["BMW", "Mercedes", "Saab", "Ford"]
+
+let fruits = ["apple", "banana", "mango", "orange"];
+fruits[2] = "grapes";
+console.log(fruits); // ["apple", "banana", "grapes", "orange"]
+
+//.at(-1) is the clean modern way to get the last item.

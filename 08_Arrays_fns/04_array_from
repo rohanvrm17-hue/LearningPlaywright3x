@@ -1,0 +1,17 @@
+// Array.from() builds an array from something iterable
+
+let str = "Hello";
+let arr2 = Array.from(str);
+console.log(arr2.length);   
+
+let arr3 = Array.from("Rohan");
+console.log(arr3);
+
+//Note the trap with new Array(3): a single number makes an empty array of that length, not [3]. Array.of(3) would make [3].
+
+let arr4 = new Array(3);
+let arr5 = Array.of(3);
+console.log(arr4.length); // 3
+console.log(arr5.length); // 1
+console.log(arr4); // [undefined, undefined, undefined]
+console.log(arr5); // [3]
